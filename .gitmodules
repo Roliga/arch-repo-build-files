@@ -1,3 +1,9 @@
 [submodule "cgames"]
 	path = cgames
 	url = https://aur.archlinux.org/cgames.git
+[submodule "pacaur"]
+	path = pacaur
+	url = https://aur.archlinux.org/pacaur.git
+[submodule "cower"]
+	path = cower
+	url = https://aur.archlinux.org/cower.git
