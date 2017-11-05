@@ -9,10 +9,9 @@ pkgdesc="simple program that sets your (X11) wallpaper. inspired by the *setroot
 arch=('i686' 'x86_64')
 url="https://github.com/ttzhou/setroot"
 license=('GPLv3')
-depends=('imlib2' 'libx11')
+depends=('imlib2' 'xinerama' 'libx11')
 makedepends=('git' 'pkg-config')
-optdepends=('sxiv: use its image viewer along with key-handler to call setroot'
-            'libxinerama: for multiple monitors')
+optdepends=('sxiv: use its image viewer along with key-handler to call setroot')
 provides=("${_pkgname}")
 conflicts=("${_pkgname}")
 source=("git+https://github.com/ttzhou/${_pkgname}.git")
